@@ -17,7 +17,7 @@ class Mcrypt < Formula
   end
 
   # comment this if need install for Monterey upwards
-  disable! date: "2023-11-12", because: "does not build from source from Monterey upwards"
+
 
   # Added automake as a build dependency to update config files in libmcrypt.
   # Please remove in future if there is a patch upstream which recognises aarch64 macos.
